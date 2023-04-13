@@ -8,6 +8,30 @@
     margin-right: auto;
     margin-top: 10%;
 }
+/* .news-title {
+    word-break: break-word;
+  } */
+  .ant-card-head-title {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  .ant-card-head-title span {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .ant-card-head-title span::after {
+    content: "\A";
+    white-space: pre;
+  }
+  .noNews{
+    text-align: center;
+    font-size: large;
+  }
 
 .search{
     position: absolute;
